@@ -20,9 +20,9 @@ Develop a C# console application that demonstrates the use of the Advice Slip AP
 - [x] JSON deserialisation with `System.Text.Json` (case-insensitive property matching)
 - [x] Basic error handling for failed HTTP requests
 - [x] Displays an advice slip (text and ID) in the console
-- [ ] Call the correct endpoint for a **random advice slip** (`/advice`) – currently calls a placeholder endpoint (`/testing`)
+- [x] Call the correct endpoint for a **random advice slip** (`/advice`)
 - [ ] **Search** for advice with the term "work" (`/advice/search/work`) and display the list of results
-- [ ] DTO for the search response (`total_results`, `query`, `slips[]`)
+- [ ] DTO for the search response
 - [ ] Handle the "no results" case from the API
 - [ ] Refactor into async methods (replace `.Result` with `async`/`await`)
 - [ ] Tidy up console output and add a simple menu
