@@ -21,8 +21,8 @@ var client = new HttpClient
 
 try
 {
-    // Send a GET request to the random endpoint and get the response
-    HttpResponseMessage response = client.GetAsync("advice").Result;
+    // Send a GET request to the endpoint and get the response
+    HttpResponseMessage response = client.GetAsync("testing").Result;
 
     // Ensure the request was successful (throws an exception if not)
     response.EnsureSuccessStatusCode();
